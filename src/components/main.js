@@ -5,6 +5,7 @@ import Resume from './resume';
 import Aboutme from './aboutme';
 import Project from './project';
 import Contact from './contact';
+import Footer from './Footer';
 
 const Main = () => (
     <Switch>
@@ -14,6 +15,7 @@ const Main = () => (
         <Route path="/project" component={Project} />
         <Route path="/contact" component={Contact} />
 
+        <Route path="/Footer" component={Footer} />
 
     </Switch>
 )
