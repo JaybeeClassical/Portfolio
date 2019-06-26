@@ -1,7 +1,6 @@
 import React from 'react';
-import { FooterSection, FooterLinkList } from 'react-mdl';
 
-function Footer() {
+const Footer = () => {
     return (
         <div>
             <Footer size="mini">
@@ -14,6 +13,7 @@ function Footer() {
             </Footer>
         </div>
     );
-}
+
+};
 
 export default Footer;
