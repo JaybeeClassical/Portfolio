@@ -10,7 +10,7 @@ class Projects extends React.Component {
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return (
-                <div>
+                <div className="projects-grid">
                     <Card shadow={10} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
@@ -18,6 +18,7 @@ class Projects extends React.Component {
                         </CardText>
                         <CardActions border>
                             <Button colored>Get Started</Button>
+                            <Button colored>Github</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#000' }}>
                             <IconButton name="share" />
@@ -79,7 +80,7 @@ class Projects extends React.Component {
                 </Tabs>
 
                 <section className="projects-grid">
-                    <Grid className="projects-grid">
+                    <Grid>
                         <Cell col={12}>
                             <div className="content">
                                 {this.toggleCategories()}

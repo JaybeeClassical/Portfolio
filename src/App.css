@@ -66,3 +66,6 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
   padding: 8px;
 }
 
+.projects-grid {
+  display: flex;
+}
