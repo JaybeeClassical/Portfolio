@@ -7,7 +7,7 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
 .landingPage{
   width: 100%;
   margin: auto;
-  height: 100vh;
+
 }
 
 .landing-grid{
@@ -16,6 +16,10 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
   background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   text-align: center;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
   }
 
 .avater-img{
