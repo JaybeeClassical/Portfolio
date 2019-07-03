@@ -69,3 +69,41 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
 .projects-grid {
   display: flex;
 }
+
+/*The Contact page Styling begins here*/
+.contact-body{
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  justify-content: center;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  background: white;
+  width: 80%;
+  height: 100% ;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-me {
+  background: gray;
+}
+
+.contact-grid hr {
+  border-top : 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i{
+  padding-right: 5rem;
+}
+
+.footer-section {
+  background: black;
+}
