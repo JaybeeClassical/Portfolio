@@ -7,7 +7,7 @@ function Contact() {
             <Grid className="contact-grid">
                 <Cell col="6">
                     <h3>Jude Chinweike Obiejesi</h3>
-                    <img src="https://robohash.org/88.130.49.243.png?set=set2"
+                    <img src="https://pbs.twimg.com/profile_images/1115179633081815040/H7m30Dph_400x400.jpg"
                         alt="avater"
                         className="avater-img" style={{ height: '220px' }} />
                     <p>
@@ -15,7 +15,6 @@ function Contact() {
                         Technical Content Writer and Speaker who have passion in skill education
                         working hard to see that tech opportunities are evenly distributed
                     </p>
-
                 </Cell>
                 <Cell col="6" className="contact-me">
                     <h2>Contact me</h2>
@@ -32,7 +31,7 @@ function Contact() {
                             <ListItemContent icon="home">9 Ajayi Street, Ago palace, Okota Lagos</ListItemContent>
                         </ListItem>
                         <ListItem>
-                            <ListItemContent ><i className="fa fa-twitter"></i> 9 Ajayi Street, Ago palace, Okota Lagos</ListItemContent>
+                            <ListItemContent ><i className="fa fa-twitter"></i>Jude Obiejesi</ListItemContent>
                         </ListItem>
                     </List>
 
