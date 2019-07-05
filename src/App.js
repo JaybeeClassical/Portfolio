@@ -5,11 +5,13 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 
 
+
 function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-        <Header className="header-nav" title="Jude Chinweike Obiejesi" scroll>
+        <Header className="header-nav"
+          title={<Link style={{ textDecoration: 'none', color: 'white' }} to="/">Jude Chinweike Obiejesi</Link>} scroll>
           <Navigation>
             <Link to="/home">Home</Link>
             <Link to="/aboutme">About me</Link>
@@ -18,7 +20,7 @@ function App() {
             <Link to="/contact">Contact</Link>
           </Navigation>
         </Header>
-        <Drawer title="I'm Jude">
+        <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">IamJude</Link>}>
           <Navigation>
             <Link to="/home">Home</Link>
             <Link to="/resume">Resume</Link>

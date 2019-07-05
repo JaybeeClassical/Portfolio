@@ -68,7 +68,26 @@ function Resume() {
                     <hr style={{ borderTop: '3px solid #182848' }} />
 
                     <h3>Skills</h3>
-                    <Skills />
+                    <Skills
+                        skill="javaScript"
+                        progress={80}
+                    />
+                    <Skills
+                        skill="React"
+                        progress={95}
+                    />
+                    <Skills
+                        skill="Wordpress"
+                        progress={90}
+                    />
+                    <Skills
+                        skill="Html"
+                        progress={98}
+                    />
+                    <Skills
+                        skill="CSS"
+                        progress={70}
+                    />
 
                 </Cell>
             </Grid>
