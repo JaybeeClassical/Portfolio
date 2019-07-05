@@ -8,7 +8,7 @@ function LandingPage() {
             <Grid className="landing-grid">
                 <Cell col={12}>
                     <img
-                        src="https://robohash.org/88.130.49.243.png?set=set2"
+                        src="https://pbs.twimg.com/profile_images/1115179633081815040/H7m30Dph_400x400.jpg"
                         alt="avater"
                         className="avater-img"
                     />
@@ -34,7 +34,7 @@ function LandingPage() {
                     </div>
                 </Cell>
             </Grid>
-            <div className="footer-section">
+            <div className=" ">
                 <Footer size="mini">
                     <FooterSection type="left" logo="Title">
                         <FooterLinkList>

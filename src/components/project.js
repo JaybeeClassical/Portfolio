@@ -21,7 +21,7 @@ class Projects extends React.Component {
                             <Button colored>Get Started</Button>
                             <Button colored>Github</Button>
                         </CardActions>
-                        <CardMenu style={{ color: '#000' }}>
+                        <CardMenu style={{color: '#000'}}>
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>

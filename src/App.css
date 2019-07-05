@@ -1,5 +1,5 @@
 .header-nav{
-  background: #4b6cb7;  /* fallback for old browsers */
+background: #4b6cb7;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -24,7 +24,9 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
 
 .avater-img{
   height: 250px;
-  padding: 5em;
+  border-radius: 50%;
+  border: solid 2px black;
+
 }
 
 .banner-text{
@@ -92,6 +94,7 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
 
 .contact-me {
   background: gray;
+  border-radius: 25px;
 }
 
 .contact-grid hr {
@@ -102,6 +105,25 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
 
 .contact-list i{
   padding-right: 5rem;
+}
+
+
+/* The Resume Page styling goes in here */
+
+/* The styling of the Right-side of the Resume page */ 
+.resume-right {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
+
+
+
+
+
+/* The styling of the Left-side of the Resume Page*/
+.resume-left {
+  text-align: center;
 }
 
 .footer-section {
