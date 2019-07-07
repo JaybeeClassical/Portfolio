@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Footers from './footer';
 
 function Resume() {
     return (
@@ -91,6 +92,7 @@ function Resume() {
 
                 </Cell>
             </Grid>
+            <Footers />
         </div>
     );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
-import { Footer, FooterSection, FooterLinkList } from 'react-mdl';
+import Footers from './footer';
 
 function LandingPage() {
     return (
@@ -34,16 +34,7 @@ function LandingPage() {
                     </div>
                 </Cell>
             </Grid>
-            <div className=" ">
-                <Footer size="mini">
-                    <FooterSection type="left" logo="Title">
-                        <FooterLinkList>
-                            <a href="/">Help</a>
-                            <a href="/">Privacy & Terms</a>
-                        </FooterLinkList>
-                    </FooterSection>
-                </Footer>
-            </div>
+            <Footers />
         </div>
     );
 }

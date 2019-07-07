@@ -1,9 +1,10 @@
 import React from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import Footers from './footer';
 
 function Contact() {
     return (
-        <div className="contact-body">
+        <div>
             <Grid className="contact-grid">
                 <Cell col="6">
                     <h3>Jude Chinweike Obiejesi</h3>
@@ -37,6 +38,9 @@ function Contact() {
 
                 </Cell>
             </Grid>
+            <hr />
+            <Footers />
+
         </div>
     );
 }

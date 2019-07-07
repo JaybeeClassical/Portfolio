@@ -1,5 +1,6 @@
 import React from 'react';
 import { Tab, Tabs, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import Footers from './footer';
 
 
 class Projects extends React.Component {
@@ -12,7 +13,7 @@ class Projects extends React.Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className="projects-grid">
-                    <Card shadow={5} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -21,13 +22,13 @@ class Projects extends React.Component {
                             <Button colored>Get Started</Button>
                             <Button colored>Github</Button>
                         </CardActions>
-                        <CardMenu style={{color: '#000'}}>
+                        <CardMenu style={{ color: '#000' }}>
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
 
                     {/* The second Card Section */}
-                    <Card shadow={5} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -41,7 +42,7 @@ class Projects extends React.Component {
                     </Card>
 
                     {/* The Third Card Section */}
-                    <Card shadow={5} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -55,7 +56,7 @@ class Projects extends React.Component {
                     </Card>
 
                     {/* The Fourth Card Section */}
-                    <Card shadow={5} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -74,7 +75,7 @@ class Projects extends React.Component {
             return (
                 /* The JavaScript Card Projects Start here */
                 <div className="projects-grid">
-                    <Card shadow={14} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://i.ya-webdesign.com/images/vector-javascript-icons-2.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -89,7 +90,7 @@ class Projects extends React.Component {
                     </Card>
 
                     {/* The second Card Section */}
-                    <Card shadow={14} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://i.ya-webdesign.com/images/vector-javascript-icons-2.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -103,7 +104,7 @@ class Projects extends React.Component {
                     </Card>
 
                     {/* The Third Card Section */}
-                    <Card shadow={14} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#000', height: '140px', background: 'url(https://i.ya-webdesign.com/images/vector-javascript-icons-2.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -122,7 +123,7 @@ class Projects extends React.Component {
             return (
                 /* The Html/Css Card Projects Start here */
                 <div>
-                    <Card shadow={5} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -141,7 +142,7 @@ class Projects extends React.Component {
             return (
                 /* The Wprdpress Card Projects Start here */
                 <div className="projects-grid">
-                    <Card shadow={5} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://bowerwebsolutions.com/newbws/wp-content/uploads/2016/12/wordpress-logo-circle.jpg) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -155,7 +156,7 @@ class Projects extends React.Component {
                     </Card>
 
                     {/* The second Card Section */}
-                    <Card shadow={5} style={{ width: '300px', margin: 'auto' }}>
+                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://bowerwebsolutions.com/newbws/wp-content/uploads/2016/12/wordpress-logo-circle.jpg) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -190,7 +191,7 @@ class Projects extends React.Component {
                         </div>
                     </Cell>
                 </Grid>
-
+                <Footers />
             </div>
         );
     }
