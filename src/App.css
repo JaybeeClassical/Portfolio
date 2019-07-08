@@ -125,13 +125,6 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
-  .resume-grid {
-  
-  }
-}
-
-
 .footer{
   width: 100%;
 }
