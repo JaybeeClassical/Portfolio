@@ -80,7 +80,7 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
 
 @media screen and (max-width: 600px) {
   .projects-grid {
-    display: inline; 
+    display: inline;   
   }
 }
 
@@ -104,14 +104,7 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
 
 .contact-grid hr {
   border-top : 5px dotted black;
-  width: 50%;
-  margin: auto;
 }
-
-.contact-list i{
-  padding-right: 5rem;
-}
-
 
 /* The Resume Page styling goes in here */
 
