@@ -8,7 +8,7 @@ import Footers from './footer';
 function Resume() {
     return (
         <div>
-            <Grid>
+            <Grid className="resume-grid">
                 <Cell className="resume-left" col="4">
                     <div >
                         <img
