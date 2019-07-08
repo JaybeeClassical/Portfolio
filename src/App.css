@@ -47,6 +47,12 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
+  display: flex;
+
+}
+
+@media only screen and (min-width: 768px), (min-resolution: 150dpi) {
+  h1 {padding: 30px;}
 }
 
 .banner-text p{
@@ -71,6 +77,13 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
 .projects-grid {
   display: flex;
 }
+
+@media screen and (max-width: 600px) {
+  .projects-grid {
+    display: inline; 
+  }
+}
+
 
 /*The Contact page Styling begins here*/
 
