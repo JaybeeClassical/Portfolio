@@ -13,7 +13,7 @@ class Projects extends React.Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className="projects-grid">
-                    <Card shadow={4} style={{ width: '300px', margin: 'auto' }}>
+                    <Card className="shadow" shadow={4} style={{ width: '300px', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fdf', height: '140px', background: 'url(https://blog.algolia.com/wp-content/uploads/2015/11/React_illo_final_720x400.png) center / cover' }}>Welcome</CardTitle>
                         <CardText>
                             This is a Filter Search Project made with reactjs to make name search easier
@@ -68,6 +68,7 @@ class Projects extends React.Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
+
                 </div>
                 /* The React Card Projects Stop here */
             )

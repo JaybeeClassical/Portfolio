@@ -76,14 +76,22 @@ background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, 
 
 .projects-grid {
   display: flex;
+  flex-wrap: wrap;
 }
 
+/*
 @media screen and (max-width: 600px) {
   .projects-grid {
     display: inline;   
   }
 }
-
+@media screen and (max-width: 1000px) {
+  .projects-grid {
+    display: flex;
+    flex-shrink: 1;   
+  }
+}
+*/
 
 /*The Contact page Styling begins here*/
 
