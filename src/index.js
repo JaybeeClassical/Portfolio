@@ -1,11 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import * as contentful from 'contentful';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
+
+var client = contentful.createClient({
+    space: '4cvz01czbdfv',
+    accessToken: 'OtikD-CnzqU80JYSaj-wQwzL2j91Xbj--xwt6FAj498'
+})
+
+client.getEntries().then(entries => {
+    entries.items.forEach(entry => {
+        if (entry.fields) {
+            console.log(entry.fields)
+        }
+    })
+})
 
 
 ReactDOM.render(

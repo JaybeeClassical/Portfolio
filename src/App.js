@@ -18,6 +18,7 @@ function App() {
             <Link to="/resume">Resume</Link>
             <Link to="/project">Project</Link>
             <Link to="/contact">Contact</Link>
+            <Link to="/blog">Blog</Link>
           </Navigation>
         </Header>
         <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">IamJude</Link>}>
@@ -27,6 +28,7 @@ function App() {
             <Link to="/aboutme">About me</Link>
             <Link to="/project">Project</Link>
             <Link to="/contact">Contact</Link>
+            <Link to="/blog">Blog</Link>
           </Navigation>
         </Drawer>
         <Content>
