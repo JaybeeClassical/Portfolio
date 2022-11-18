@@ -10,7 +10,7 @@
     "react-markdown": "^4.1.0",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-share": "^3.0.0"
   },
   "scripts": {
